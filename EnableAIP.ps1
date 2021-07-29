@@ -17,7 +17,7 @@ Connect-MsolService
 Connect-AzureAD
 Connect-MicrosoftTeams
 
-
+New-MsolGroup -ManagedBy user@dmain.com -DisplayName "GroupCreators" -Description "Microsoft 365 Group Creators"
 
 $Template = Get-AzureADDirectorySettingTemplate | Where-Object {$_.DisplayName -eq "Group.Unified"}
 if(!($Setting = Get-AzureADDirectorySetting | Where-Object {$_.TemplateId -eq $Template.Id})) 
