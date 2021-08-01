@@ -1,0 +1,35 @@
+[
+    {
+        "DisplayName": "CA-Office",
+        "Description": "CA-Office",
+        "MailNickName": "CA-Office",
+        "Visibility":"Public",
+        "Users": [
+            {
+                "User": "AlexW@M365x081234.onmicrosoft.com",
+                "Role": "Member"
+            },
+            {
+                "User": "AllanD@M365x081234.onmicrosoft.com",
+                "Role": "Member"
+            }
+        ],
+        "Channels": [
+            {
+                "DisplayName": "Support",
+                "MembershipType": "Standard",
+                "Description": "Support"
+            },
+            {
+                "DisplayName": "Recruiting",
+                "MembershipType": "Standard",
+                "Description": "Recruiting"
+            },
+            {
+                "DisplayName": "Administration",
+                "MembershipType": "Private",
+                "Description": "Administration"
+            }
+        ]
+    }
+]

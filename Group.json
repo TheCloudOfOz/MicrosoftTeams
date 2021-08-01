@@ -1,0 +1,6 @@
+{
+    "template@odata.bind": "https://graph.microsoft.com/v1.0/teamsTemplates('standard')",
+    "displayName": "Early Graph PowerShell Adopters",
+    "description": "The Early Adopters Workspace.",
+    "visibility": "Public"
+}

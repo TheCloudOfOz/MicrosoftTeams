@@ -1,0 +1,81 @@
+{
+    "ID": "2edd4770-7f7b-4bed-9a6e-e92251e99f49",
+    "Name": "M365x081234",
+    "Domain": "M365x081234.onmicrosoft.com",
+    "Url": "https://admin.microsoft.com",
+    "Graph": {
+        "Url": "https://login.microsoftonline.com/2edd4770-7f7b-4bed-9a6e-e92251e99f49/oauth2/v2.0/token",
+        "Token": "",
+        "OAuth": {
+            "grant_type": "client_credentials",
+            "scope": "https://graph.microsoft.com/.default",
+            "client_id": "6e93ea8b-f5c5-486c-be26-9b90973e4d0b",
+            "client_secret": "9j..s6-ee8k.I6jg0IHgGN5kqVt2u_LIu_"
+        }
+    },
+    "AzureAD": {
+        "Domain": "M365x081234.onmicrosoft.com",
+        "Admin": {
+            "UserName": "admin@M365x081234.onmicrosoft.com",
+            "Password": "w%Y9J5qo$s*h",
+            "Credential": "$null"
+        }
+    },
+    "SharePoint": {
+        "Url": "https://M365x081234.sharepoint.com/",
+        "Admin": {
+            "Url": "https://M365x081234-admin.sharepoint.com/",
+            "UserName": "admin@M365x081234.onmicrosoft.com",
+            "Password": "w%Y9J5qo$s*h",
+            "Credential": "$null"
+        }
+    },
+    "Exchange": {
+        "ConnectionUri": "https://outlook.office365.com/powershell-liveid/",
+        "ConfigurationName": "Microsoft.Exchange",
+        "Admin": {
+            "UserName": "admin@M365x081234.onmicrosoft.com",
+            "Password": "w%Y9J5qo$s*h",
+            "Credential": "$null"
+        }
+    },
+    "Complience": {
+        "ConnectionUri": "https://ps.compliance.protection.outlook.com/powershell-liveid/",
+        "ConfigurationName": "Microsoft.Exchange",
+        "Admin": {
+            "UserName": "admin@M365x081234.onmicrosoft.com",
+            "Password": "w%Y9J5qo$s*h",
+            "Credential": "$null"
+        }
+    },
+    "Teams": {
+        "Url": "https://ps.compliance.protection.outlook.com/powershell-liveid/",
+        "Admin": {
+            "UserName": "admin@M365x081234.onmicrosoft.com",
+            "Password": "w%Y9J5qo$s*h",
+            "Credential": "$null"
+        }
+    },
+    "PowerApps": {
+        "Url": "https://make.powerapps.com",
+        "Admin": {
+            "Url": "https://admin.powerplatform.microsoft.com",
+            "UserName": "admin@M365x081234.onmicrosoft.com",
+            "Password": "w%Y9J5qo$s*h",
+            "Credential": "$null"
+        },
+        "Location": {
+            "NorthAmerica": "https://admin.services.crm.dynamics.com",
+            "NorthAmerica2": "https://admin.services.crm9.dynamics.com",
+            "Europe": "https://admin.services.crm4.dynamics.com",
+            "AsiaPacific": "https://admin.services.crm5.dynamics.com",
+            "Oceania": "https://admin.services.crm6.dynamics.com",
+            "Japan": "https://admin.services.crm7.dynamics.com",
+            "SouthAmerica": "https://admin.services.crm2.dynamics.com",
+            "India": "https://admin.services.crm8.dynamics.com",
+            "Canada": "https://admin.services.crm3.dynamics.com",
+            "UnitedKingdom": "https://admin.services.crm11.dynamics.com",
+            "France": "https://admin.services.crm12.dynamics.com"
+        }
+    }
+}
