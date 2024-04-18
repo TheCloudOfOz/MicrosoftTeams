@@ -22,7 +22,7 @@
         {
             "displayName": "Issues and Feedback 🐞",
             "description": "Leave some feedback for the IT-Staff.",
-            "isFavoriteByDefault": "Space for all employees participating in the champions program, who want exchange each other about the newest features."
+            "isFavoriteByDefault": true
         }
     ],
     "memberSettings": {
